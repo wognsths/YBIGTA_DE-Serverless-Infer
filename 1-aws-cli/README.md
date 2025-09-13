@@ -50,6 +50,7 @@ Default output format [None]: json
 **주의**: 되도록이면 루트 계정이 아닌 IAM 사용자 계정을 만들어서 진행해봅시다.
 
 1. IAM 사용자 계정 생성
+
 ![alt text](1-create-user.png)
 사용자 생성 클릭
 
@@ -62,9 +63,11 @@ Default output format [None]: json
 이렇게 IAM 사용자를 만들어주고, 로그인 해줍시다!
 
 2. Access Key 발급받기
+
 콘솔 -> IAM -> 사용자(Users) -> 만든 IAM 계정 클릭
 ![alt text](4-security-credentials.png)
 ![alt text](5-access-key1.png)
+
 Access 키 만들기 클릭
 ![alt text](6-access-key2.png)
 ![alt text](7-access-key3.png)
