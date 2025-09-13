@@ -80,9 +80,12 @@ Default output format [None]: json
    * 콘솔 → IAM → 사용자(Users) → 생성한 사용자 선택
    * **보안 자격 증명(Security credentials)** 탭에서 Access Key 생성
 
-   <img src="4-security-credentials.png" alt="security-credentials" width="400"/>
+   <img src="4-security-credentials.png" alt="security-credentials"/>
+
    <img src="5-access-key1.png" alt="access-key1" width="400"/>
+
    <img src="6-access-key2.png" alt="access-key2" width="400"/>
+
    <img src="7-access-key3.png" alt="access-key3" width="400"/>
 
 ---
