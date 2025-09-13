@@ -81,9 +81,9 @@ Default output format [None]: json
    * **보안 자격 증명(Security credentials)** 탭에서 Access Key 생성
 
    ![security-credentials](4-security-credentials.png)
-   ![access-key1](5-access-key1.png)
-   ![access-key2](6-access-key2.png)
-   ![access-key3](7-access-key3.png)
+   ![access-key1](5-access-key1.png){: width="400px"}
+   ![access-key2](6-access-key2.png){: width="400px"}
+   ![access-key3](7-access-key3.png){: width="400px"}
 
 ---
 
