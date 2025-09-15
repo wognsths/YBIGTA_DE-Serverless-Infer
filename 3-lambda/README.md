@@ -21,6 +21,11 @@
 7. 필요 시 구성(Configuration) 편집  
    ![edit-configuration](4-edit-configuration.png)
 
+8. 필요 라이브러리 layer 생성
+   ![create-layer](5-create-layer.png)
+
+9. Layer 추가
+   ![add-layer](6-add-layer.png)
 
 ## Lambda 함수 테스트해보기
 
