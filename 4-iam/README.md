@@ -1,0 +1,5 @@
+![1](1-create-role.png)
+![2](2-select-entity.png)
+![3](3-add-auth.png)
+![4](4-naming.png)
+![5](5-again-go-lambda.png)
