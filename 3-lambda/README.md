@@ -1,10 +1,11 @@
 ## Lambda 함수 생성하기
 
-1. **함수 만들기(Create function)** 메뉴로 이동  
+1. **함수 생성(Create function)** 메뉴로 이동  
    ![create-function](1-create-function.png)
 
 2. **함수 정보 입력** (함수 이름, 런타임 등)  
    ![function-info](2-function-info.png)
+   **python=3.10**으로 해주세요!
 
 3. 코드 탭에서 `handler.py` 내용을 복사하여 붙여넣기
 
@@ -18,7 +19,7 @@
 6. 일반 설정(General configuration) 화면 확인  
    ![general-configuration](3-general-configuration.png)
 
-7. 필요 시 구성(Configuration) 편집  
+7. 구성(Configuration) 편집  
    ![edit-configuration](4-edit-configuration.png)
 
 8. 필요 라이브러리 layer 생성
@@ -26,6 +27,9 @@
 
 9. Layer 추가
    ![add-layer](6-add-layer.png)
+
+10. 환경 변수 설정(번거로우면 코드에다가 본인 S3 버킷 이름 넣어주세요!)
+   ![add-envs](7-add-envs.png)
 
 ## Lambda 함수 테스트해보기
 
@@ -106,3 +110,7 @@ Get-Content .\out.json
 # (필요 시) 파이프라인으로 보기 좋게:
 # Get-Content .\out.json | ConvertFrom-Json | Format-List
 ```
+
+이런 오류가 뜨셨나요?
+`image-converter is not authorized to perform: s3:PutObject on resource`
+이제는 IAM 정책을 수정해봅시다!
