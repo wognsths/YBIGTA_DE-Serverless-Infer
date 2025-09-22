@@ -11,7 +11,7 @@ cd 3-lambda # test.jpg를 위해!!
 1. macOS (zsh/bash)
 ```
 # 1) Base64 인코딩 (macOS는 줄바꿈 제거 필수)
-BASE64_IMG=$(base64 test.jpg | tr -d '\n')
+BASE64_IMG=$(base64 < test.jpg | tr -d '\n')
 
 # 2) base64 문자열을 파일로 저장
 printf '%s' "$BASE64_IMG" > img.b64
