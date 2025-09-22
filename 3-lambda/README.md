@@ -50,7 +50,7 @@
 
 ```bash
 # 1) Base64 인코딩 (macOS는 줄바꿈 제거 필요)
-BASE64_IMG=$(base64 test.jpg | tr -d '\n')
+BASE64_IMG=$(base64 < test.jpg | tr -d '\n')
 
 # 2) 페이로드 JSON 생성
 printf '{"body":"%s","isBase64Encoded":true}\n' "$BASE64_IMG" > payload.json
