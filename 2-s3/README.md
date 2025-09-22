@@ -28,7 +28,7 @@ aws s3 ls
 
 ### 테스트 업로드/다운로드
 ```
-aws s3 cp "./2-s3/test.txt" s3://[BUCKET NAME]/text.txt"
+aws s3 cp "./2-s3/test.txt" s3://[BUCKET NAME]/text.txt
 ```
 확인:
 ```
